@@ -6,7 +6,7 @@
     - prometheus
     - alerts
 
-- name: Restart Prometheus
+- name: Restart Prometheus server
   ansible.builtin.systemd:
     name: prometheus
     state: restarted
